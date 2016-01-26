@@ -1,0 +1,3 @@
+[submodule "platform_dalvik"]
+	path = platform_dalvik
+	url = https://android.googlesource.com/platform/dalvik/
