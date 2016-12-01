@@ -11,7 +11,7 @@
 
   <groupId>com.jakewharton.android.repackaged</groupId>
   <artifactId>dalvik-dx</artifactId>
-  <version>2-SNAPSHOT</version>
+  <version>7.1.0_r7-SNAPSHOT</version>
 
   <name>platform/dalvik dx</name>
   <description>A standalone packaging of AOSP's platform/dalvik dx library.</description>
@@ -40,7 +40,7 @@
     <dependency>
       <groupId>com.jakewharton.android.repackaged</groupId>
       <artifactId>libcore-dex</artifactId>
-      <version>2</version>
+      <version>7.1.0_r7</version>
     </dependency>
 
     <dependency>

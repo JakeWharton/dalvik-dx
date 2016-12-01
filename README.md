@@ -13,14 +13,14 @@ Maven:
 <dependency>
   <groupId>com.jakewharton.android.repackaged</android>
   <artifactId>dalvik-dx</artifactId>
-  <version>1</version>
+  <version>7.1.0_r7</version>
 </dependency>
 ```
 
 Gradle:
 
 ```groovy
-compile 'com.jakewharton.android.repackaged:dalvik-dx:1'
+compile 'com.jakewharton.android.repackaged:dalvik-dx:7.1.0_r7'
 ```
 
 
