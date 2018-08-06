@@ -4,6 +4,12 @@ Change Log
 For library changes see https://android.googlesource.com/platform/dalvik/+log/master/dx
 
 
+Version 8.1.0_r41 *(2018-08-05)*
+--------------------------------
+
+`platform/dalvik` tag `android-8.1.0_r41`
+
+
 Version 7.1.0_r7 *(2016-12-01)*
 -------------------------------
 
