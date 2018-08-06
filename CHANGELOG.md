@@ -9,6 +9,8 @@ Version 8.1.0_r41 *(2018-08-05)*
 
 `platform/dalvik` tag `android-8.1.0_r41`
 
+Dependency on `com.jakewharton.android.repackaged:libcore-dex` was removed as its sources are now present in this artifact.
+
 
 Version 7.1.0_r7 *(2016-12-01)*
 -------------------------------
