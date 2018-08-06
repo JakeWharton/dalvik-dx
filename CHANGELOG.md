@@ -4,6 +4,12 @@ Change Log
 For library changes see https://android.googlesource.com/platform/dalvik/+log/master/dx
 
 
+Version 9.0.0_r3 *(2018-08-06)*
+-------------------------------
+
+`platform/dalvik` tag `android-9.0.0_r3`
+
+
 Version 8.1.0_r41 *(2018-08-05)*
 --------------------------------
 
