@@ -32,17 +32,11 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>1.6</java.version>
+    <java.version>1.7</java.version>
     <additionalparam>-Xdoclint:none</additionalparam>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>com.jakewharton.android.repackaged</groupId>
-      <artifactId>libcore-dex</artifactId>
-      <version>7.1.0_r7</version>
-    </dependency>
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
