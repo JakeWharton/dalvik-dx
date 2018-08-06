@@ -11,7 +11,7 @@
 
   <groupId>com.jakewharton.android.repackaged</groupId>
   <artifactId>dalvik-dx</artifactId>
-  <version>8.1.0_r41</version>
+  <version>HEAD-SNAPSHOT</version>
 
   <name>platform/dalvik dx</name>
   <description>A standalone packaging of AOSP's platform/dalvik dx library.</description>
