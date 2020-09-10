@@ -7,20 +7,20 @@ A standalone packaging of AOSP's platform/dalvik dx library.
 Download
 --------
 
+Gradle:
+
+```groovy
+compile 'com.jakewharton.android.repackaged:dalvik-dx:11.0.0_r3'
+```
+
 Maven:
 
 ```xml
 <dependency>
   <groupId>com.jakewharton.android.repackaged</android>
   <artifactId>dalvik-dx</artifactId>
-  <version>9.0.0_r3</version>
+  <version>11.0.0_r3</version>
 </dependency>
-```
-
-Gradle:
-
-```groovy
-compile 'com.jakewharton.android.repackaged:dalvik-dx:9.0.0_r3'
 ```
 
 
