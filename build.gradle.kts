@@ -15,8 +15,8 @@ version = "HEAD-SNAPSHOT"
 description = "platform/dalvik dx"
 
 sourceSets {
-    getByName("main").java.srcDir("platform_dalvik/dx/src")
-    getByName("test").java.srcDir("platform_dalvik/dx/junit-tests")
+    main.get().java.srcDir("platform_dalvik/dx/src")
+    test.get().java.srcDir("platform_dalvik/dx/junit-tests")
 }
 
 java {
