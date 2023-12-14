@@ -19,7 +19,7 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
       - run: ./gradlew build
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: build-out-jars
           path: build/libs/*.jar
