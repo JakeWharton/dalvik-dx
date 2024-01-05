@@ -10,7 +10,7 @@ Download
 Gradle:
 
 ```groovy
-compile 'com.jakewharton.android.repackaged:dalvik-dx:11.0.0_r3'
+implementation 'com.jakewharton.android.repackaged:dalvik-dx:11.0.0_r3'
 ```
 
 Maven:

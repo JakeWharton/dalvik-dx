@@ -11,10 +11,9 @@ build
 out
 lib
 
-# Maven
-target
-pom.xml.*
-release.properties
+# Gradle
+.gradle
+build
 
 # IntelliJ
 .idea

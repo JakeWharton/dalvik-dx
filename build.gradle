@@ -1,0 +1,26 @@
+plugins {
+  id "java-library"
+  id "com.vanniktech.maven.publish" version "0.26.0"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testImplementation "junit:junit:4.13.2"
+}
+
+sourceSets {
+  main.java.srcDir("platform_dalvik/dx/src")
+  test.java.srcDir("platform_dalvik/dx/junit-tests")
+}
+
+java {
+  sourceCompatibility JavaVersion.VERSION_1_8
+  targetCompatibility JavaVersion.VERSION_1_8
+}
+
+tasks.javadoc {
+  options.addStringOption("Xdoclint:none", "-quiet")
+}
