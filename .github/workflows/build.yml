@@ -23,3 +23,23 @@ jobs:
         with:
           name: build-out-jars
           path: build/libs/*.jar
+
+  publish:
+    needs: build
+    if: github.repository == 'JakeWharton/dalvik-dx'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: 11
+      - uses: gradle/gradle-build-action@v2
+        with:
+          cache-read-only: true
+      - name: Publish Artifacts
+        run: ./gradlew publish
+        if: github.ref == 'refs/heads/trunk'
+        env:
+          ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.SONATYPE_NEXUS_USERNAME }}
+          ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.SONATYPE_NEXUS_PASSWORD }}
