@@ -6,10 +6,10 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^.github/workflows/.*\\.ya?ml$"],
+      "fileMatch": ["^.github/workflows/.+\\.ya?ml$"],
       "matchStrings": ["java-version: (?<currentValue>\\d+)\\n"],
       "depNameTemplate": "java-jdk",
-      "autoReplaceStringTemplate": "java-version: {{{newValue}}}\\n",
+      "autoReplaceStringTemplate": "java-version: {{{newMajor}}}\\n",
       "datasourceTemplate": "java-version"
     }
   ]
