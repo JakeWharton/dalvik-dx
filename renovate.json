@@ -8,6 +8,7 @@
       "customType": "regex",
       "fileMatch": ["^.github/workflows/.*\\.ya?ml$"],
       "matchStrings": ["java-version: (?<currentValue>\\d+)\\n"],
+      "depNameTemplate": "java",
       "datasourceTemplate": "java-version"
     }
   ]
