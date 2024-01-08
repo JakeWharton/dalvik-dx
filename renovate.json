@@ -9,6 +9,7 @@
       "fileMatch": ["^.github/workflows/.*\\.ya?ml$"],
       "matchStrings": ["java-version: (?<currentValue>\\d+)\\n"],
       "depNameTemplate": "java-jdk",
+      "autoReplaceStringTemplate": "java-version: {{{newValue}}}\\n",
       "datasourceTemplate": "java-version"
     }
   ]
