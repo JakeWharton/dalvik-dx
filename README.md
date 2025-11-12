@@ -10,7 +10,7 @@ Download
 Gradle:
 
 ```groovy
-implementation 'com.jakewharton.android.repackaged:dalvik-dx:14.0.0_r21'
+implementation 'com.jakewharton.android.repackaged:dalvik-dx:16.0.1'
 ```
 
 Maven:
@@ -19,7 +19,7 @@ Maven:
 <dependency>
   <groupId>com.jakewharton.android.repackaged</android>
   <artifactId>dalvik-dx</artifactId>
-  <version>14.0.0_r21</version>
+  <version>16.0.1</version>
 </dependency>
 ```
 

@@ -4,6 +4,12 @@ Change Log
 For library changes see https://android.googlesource.com/platform/dalvik/+log/refs/heads/main
 
 
+Version 16.0.1 *(2025-11-12)*
+-----------------------------
+
+- Fix: Do not publish empty jar.
+
+
 Version 16.0.0 *(2025-11-12)*
 -----------------------------
 
