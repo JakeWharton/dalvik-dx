@@ -27,4 +27,6 @@ Maven:
 License
 -------
 
-This project contains no code. See `platform_dalvik/NOTICE` for its license.
+License for the code in this repo is covered by `LICENSE.txt`.
+
+License for the code deployed in the jar is covered by `platform_dalvik/NOTICE`.
