@@ -1,7 +1,13 @@
 Change Log
 ==========
 
-For library changes see https://android.googlesource.com/platform/dalvik/+log/master/dx
+For library changes see https://android.googlesource.com/platform/dalvik/+log/refs/heads/main
+
+
+Version 16.0.0 *(2025-11-12)*
+-----------------------------
+
+`platform/dalvik` tag `android-16.0.0_r3`
 
 
 Version 14.0.0_r21 *(2024-01-08)*

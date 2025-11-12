@@ -1,6 +1,6 @@
 # Releasing
 
-1. Update the `VERSION_NAME` in `gradle.properties` to the AOSP tag version.
+1. Update the `VERSION_NAME` in `gradle.properties` to the AOSP tag version (number only).
 
 2. Update the `CHANGELOG.md`.
 
@@ -24,7 +24,7 @@
    $ git tag -am "Version X.Y.Z" X.Y.Z
    ```
 
-7. Update the `VERSION_NAME` in `gradle.properties` to "HEAD-SNAPSHOT" version.
+7. Update the `VERSION_NAME` in `gradle.properties` to the next "SNAPSHOT" version.
 
 8. Commit
 
