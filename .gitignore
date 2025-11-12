@@ -1,25 +1,6 @@
-# Eclipse
-.classpath
-.project
-.settings
-eclipsebin
-
-# Ant
-bin
-gen
-build
-out
-lib
-
 # Gradle
 .gradle
 build
 
 # IntelliJ
 .idea
-*.iml
-*.iws
-*.ipr
-classes
-
-.DS_Store

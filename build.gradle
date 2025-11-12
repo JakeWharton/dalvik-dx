@@ -1,19 +1,26 @@
-plugins {
-  id "java-library"
-  id "com.vanniktech.maven.publish" version "0.35.0"
+buildscript {
+  dependencies {
+    classpath libs.mavenPublishPlugin
+  }
+  repositories {
+    mavenCentral()
+  }
 }
+
+apply plugin: 'java-library'
+apply plugin: 'com.vanniktech.maven.publish'
 
 repositories {
   mavenCentral()
 }
 
 dependencies {
-  testImplementation "junit:junit:4.13.2"
+  testImplementation libs.junit
 }
 
 sourceSets {
-  main.java.srcDir("platform_dalvik/dx/src")
-  test.java.srcDir("platform_dalvik/dx/junit-tests")
+  main.java.srcDir('platform_dalvik/dx/src')
+  test.java.srcDir('platform_dalvik/dx/junit-tests')
 }
 
 java {
@@ -22,5 +29,5 @@ java {
 }
 
 tasks.javadoc {
-  options.addStringOption("Xdoclint:none", "-quiet")
+  options.addStringOption('Xdoclint:none', '-quiet')
 }
