@@ -23,4 +23,7 @@
       extractVersionTemplate: '^(?<version>\\d+)',
     },
   ],
+  git-submodules: {
+    enabled: true,
+  },
 }
