@@ -11,8 +11,8 @@
     // Update .java-version file with the latest JDK version.
     {
       customType: 'regex',
-      fileMatch: [
-        '\\.java-version$',
+      managerFilePatterns: [
+        '/\\.java-version$/',
       ],
       matchStrings: [
         '(?<currentValue>.*)\\n',
@@ -23,7 +23,7 @@
       extractVersionTemplate: '^(?<version>\\d+)',
     },
   ],
-  "git-submodules": {
+  'git-submodules': {
     enabled: true,
   },
   packageRules: [
